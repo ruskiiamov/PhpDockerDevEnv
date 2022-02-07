@@ -3,6 +3,10 @@
 и
 [Docker-Compose](https://docs.docker.com/compose/install/)
 
+Создать файл .env с помощью .env.example:
+- APP_PATH - путь к папке проекта
+- DOCUMENT_ROOT - путь к папке с index.php в проекте
+
 Перед первым запуском и после каждого изменения конфигурации:
 ```
 docker-compose build
