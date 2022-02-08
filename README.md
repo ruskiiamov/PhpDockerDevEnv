@@ -34,10 +34,12 @@ exit
 URL: [http://localhost:8080](http://localhost:8080)
 
 Подключение к локальной БД MySQL:
-- Host: localhost
-- Port: 
-  - 33060 - для подключения внешнего клиента
-  - 3306 - для подключения в коде внутри контейнера php
+- Для подключения внешнего клиента:
+  - Host: localhost
+  - Port: 33060
+- Для подключения в коде внутри контейнера php:
+  - Host: mysql
+  - Port: 3306
 - User: root
 - Password: root
 
